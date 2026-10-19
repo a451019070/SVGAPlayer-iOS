@@ -25,6 +25,7 @@
 		90A364DD1E5D33F8009347F1 /* SVGAContentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A364DC1E5D33F8009347F1 /* SVGAContentLayer.m */; };
 		90A676E21D13A6DF008A69F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A676E11D13A6DF008A69F3 /* main.m */; };
 		90A676E51D13A6DF008A69F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A676E41D13A6DF008A69F3 /* AppDelegate.m */; };
+		A1B2C3D41F00000100AABB01 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D41F00000100AABB03 /* SceneDelegate.m */; };
 		90A676E81D13A6DF008A69F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A676E71D13A6DF008A69F3 /* ViewController.m */; };
 		90A676EB1D13A6DF008A69F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A676E91D13A6DF008A69F3 /* Main.storyboard */; };
 		90A676ED1D13A6DF008A69F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A676EC1D13A6DF008A69F3 /* Assets.xcassets */; };
@@ -73,6 +74,8 @@
 		90A676E11D13A6DF008A69F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90A676E31D13A6DF008A69F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90A676E41D13A6DF008A69F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1B2C3D41F00000100AABB02 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A1B2C3D41F00000100AABB03 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		90A676E61D13A6DF008A69F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		90A676E71D13A6DF008A69F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90A676EA1D13A6DF008A69F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				90D7C9FA1F7E2AA3006E74F0 /* Samples */,
 				90A676E31D13A6DF008A69F3 /* AppDelegate.h */,
 				90A676E41D13A6DF008A69F3 /* AppDelegate.m */,
+				A1B2C3D41F00000100AABB02 /* SceneDelegate.h */,
+				A1B2C3D41F00000100AABB03 /* SceneDelegate.m */,
 				90A676E61D13A6DF008A69F3 /* ViewController.h */,
 				90A676E71D13A6DF008A69F3 /* ViewController.m */,
 				90A676E91D13A6DF008A69F3 /* Main.storyboard */,
@@ -350,6 +355,7 @@
 				904D41F81D223DD20085A21A /* SVGABezierPath.m in Sources */,
 				90A364D71E5AECBD009347F1 /* SVGAVideoSpriteEntity.m in Sources */,
 				90A676E51D13A6DF008A69F3 /* AppDelegate.m in Sources */,
+				A1B2C3D41F00000100AABB01 /* SceneDelegate.m in Sources */,
 				90A364DD1E5D33F8009347F1 /* SVGAContentLayer.m in Sources */,
 				90DB59B51F96026E00894727 /* SVGAImageView.m in Sources */,
 				90A676FA1D13A81F008A69F3 /* SVGA.m in Sources */,
@@ -473,7 +479,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = S2RM275849;
 				INFOPLIST_FILE = SVGAPlayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opensource.SVGAPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -490,7 +496,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = S2RM275849;
 				INFOPLIST_FILE = SVGAPlayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opensource.SVGAPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
