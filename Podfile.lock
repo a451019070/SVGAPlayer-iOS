@@ -7,7 +7,7 @@ DEPENDENCIES:
   - SSZipArchive (~> 2.1.4)
 
 SPEC REPOS:
-  https://gitee.com/mirrors/CocoaPods-Specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Protobuf
     - SSZipArchive
 
